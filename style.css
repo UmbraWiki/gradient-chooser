@@ -1,0 +1,26 @@
+body {
+  background-color: #242425;
+}
+
+p, a, label {
+  color: #FFF;
+}
+
+#sandbox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100px;
+  background-size: 100%;
+  background-image: linear-gradient(to right, #000, #FFF);
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+input, button {
+  background-color: #000;
+  border: 2px solid blue;
+  border-radius: 0.2rem;
+  color: #fff;
+}
