@@ -18,7 +18,7 @@ p, a, label {
   text-align: center;
 }
 
-input, button {
+input {
   background-color: #000;
   border: 2px solid blue;
   border-radius: 0.2rem;
