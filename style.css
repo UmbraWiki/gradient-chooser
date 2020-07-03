@@ -39,6 +39,10 @@ input {
   body, input {
     font-size: 30px;
   }
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   #sandbox {
     margin: 0.4em;
     width: 100%;
@@ -60,11 +64,4 @@ img {
 
 .github-logo {
   float: right;
-}
-
-.hr {
-  width: 100%
-  background-color: #FFF;
-  height: 3px;
-  margin: 0.4em auto;
 }
