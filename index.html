@@ -6,6 +6,7 @@
   <meta name="description" content="Gradient chooser for Umbrawiki">
   <meta name="author" content="Cruifer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="UmbraWiki, gradient">
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="script.js"></script>
 </head>
@@ -17,9 +18,9 @@
     <a href="https://github.com/Umbrawiki/gradient-chooser">GitHub</a>.
   </p>
   <label for="h1">Colore 1:</label>
-  <input type="text" id="h1" maxlength="6" pattern="[A-Fa-f0-9]{6}|[A-Fa-f0-9]{3}" value="000"><br><br>
+  <input type="text" id="h1" maxlength="6" pattern="([A-Fa-f0-9]{3}){1,2}" value="000"><br><br>
   <label for="h2">Colore 2:</label>
-  <input type="text" id="h2" maxlength="6" pattern="[A-Fa-f0-9]{6}|[A-Fa-f0-9]{3}" value="FFF"><br><br>
+  <input type="text" id="h2" maxlength="6" pattern="([A-Fa-f0-9]{3}){1,2}" value="FFF"><br><br>
   <input type="button" onclick="getHex()" value="Inserisci il gradiente">
   <div id="sandbox">
   </div>

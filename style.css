@@ -26,6 +26,10 @@ input {
   color: #fff;
 }
 
+script {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .visible-sm {
     display: none;
@@ -45,7 +49,7 @@ input {
   }
   #sandbox {
     margin: 0.4em;
-    width: 100%;
+    width: 90%;
     height: 200px;
   }
   label, input {
