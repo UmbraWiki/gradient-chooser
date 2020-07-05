@@ -2,6 +2,7 @@ body {
   background-color: #242425;
   font-family: "RooneySansWeb";
   font-size: 17px;
+  text-rendering: optimizeLegibility;
 }
 
 p, a, label {
