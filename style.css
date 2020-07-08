@@ -76,4 +76,5 @@ pre {
   border: 1px dashed #85bb6f;
   color: #85bb6f;
   margin-bottom: 0.2em;
+  overflow: auto;
 }
