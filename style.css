@@ -70,3 +70,10 @@ img {
 .github-logo {
   float: right;
 }
+
+pre {
+  background: #101010;
+  border: 1px dashed #85bb6f;
+  color: #85bb6f;
+  margin-bottom: 0.2em;
+}

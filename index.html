@@ -14,6 +14,7 @@
   <p class="hidden-sm">Questo mini sito web serve come tool per scegliere i gradienti per
     <a href="https://umbrawiki.netsons.org/">UmbraWiki</a>.
     Scegli due esadecimali e il box avrà il gradiente con i due colori desiderati.
+    Sotto puoi copiare il codice da usare per generare il gradiente su UmbraWiki.
     Il codice sorgente si trova su
     <a href="https://github.com/Umbrawiki/gradient-chooser">GitHub</a>.
   </p>
@@ -21,9 +22,10 @@
   <input type="text" id="h1" maxlength="6" pattern="([A-Fa-f0-9]{3}){1,2}" value="000"><br><br>
   <label for="h2">Colore 2:</label>
   <input type="text" id="h2" maxlength="6" pattern="([A-Fa-f0-9]{3}){1,2}" value="FFF"><br><br>
-  <input type="button" onclick="getHex()" value="Inserisci il gradiente">
+  <input type="button" onclick="gradient()" value="Inserisci il gradiente">
   <div id="sandbox">
   </div>
+  <pre id="copy-gradient">{{gradient|hex1=000|hex2=FFF}}</pre>
   <a class="visible-sm" href="https://umbrawiki.netsons.org"><img class="umbrawiki-logo" alt="UmbraWiki" src="UmbraWiki-logo.png"></img></a>
   <a class="visible-sm" href="https://github.com/Umbrawiki/gradient-chooser"><img class="github-logo" alt="GitHub" src="GitHub-logo.png"></img></a>
 </body>
