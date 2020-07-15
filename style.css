@@ -71,10 +71,11 @@ img {
   float: right;
 }
 
-pre {
+#copy-gradient {
   background: #101010;
   border: 1px dashed #85bb6f;
   color: #85bb6f;
-  margin-bottom: 0.2em;
   overflow: auto;
+  white-space: pre;
+  font-family: monospace;
 }
